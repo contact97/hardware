@@ -1,7 +1,6 @@
 # Hardware design related resources
 
 <p align="center">
-  <img src="https://media2.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" />
   <img src="https://www.system-to-asic.com/wp-content/uploads/2020/04/AdobeStock_253394573-626.jpeg" />
 </p>
 
