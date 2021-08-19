@@ -9,7 +9,7 @@
 ## [Resume](resume/resume.pdf)
 
 ## Important Topics:
-* ASIC Design Flow
+* [ASIC Design Flow](topics/asic_design_flow.md)
 * [CDC](topics/cdc.md)
 * [Asynchronous FIFO](topics/async_fifo.md)
 * [Static Timing Analysis](topics/sta.md)
