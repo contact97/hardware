@@ -8,3 +8,4 @@
 - [Link3](https://dzone.com/articles/how-does-the-asic-design-flow-cycle-works)
 - [Complete Process](http://venividiwiki.ee.virginia.edu/mediawiki/images/2/22/Pt.pdf)
 - [Manual with VHDL](https://www.eit.lth.se/fileadmin/eit/courses/etin01/manual_etc/dasic.pdf)
+- [Book](https://github.com/gs1293/pdfs/blob/main/books/asic_design_and_synthesis.pdf)
