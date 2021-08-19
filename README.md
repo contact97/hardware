@@ -69,10 +69,6 @@
 * [SystemVerilog Classes - Cadence Design Systems](https://www.youtube.com/playlist?list=PLYdInKVfi0KZ1HMVNNcxvvWhYJMmLAq_g)
 * [Unleashing SystemVerilog and UVM Video Series - Synopsys](https://www.youtube.com/playlist?list=PLEgCreVKPx5AP61Pu36QQE0Pkni2Vv-HD)
 
-### Tool Knowledge:
-* [Unified Debug with Verdi - Synopsys](https://www.youtube.com/playlist?list=PLEgCreVKPx5ANYtZgq6S4nZp6lZbNpNEQ)
-* [SimVision Debug Video Series - Cadence Design Systems](https://www.youtube.com/playlist?list=PLYdInKVfi0KYzCjnkgRgDXFJcKyQRz6eM)
-
 ### [Tools](tools/tools.md)
 
 ### Other Knowledge:

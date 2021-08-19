@@ -2,7 +2,7 @@
 
 ### Cadence:
 - [IRUN](https://picture.iczhiku.com/resource/eetop/ShIgepQHdUhOexxx.pdf)
-- [Simvision](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.433.382&rep=rep1&type=pdf) [(playlist)](https://www.youtube.com/playlist?list=PLYdInKVfi0KYzCjnkgRgDXFJcKyQRz6eM)
+- [Simvision](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.433.382&rep=rep1&type=pdf) | [playlist](https://www.youtube.com/playlist?list=PLYdInKVfi0KYzCjnkgRgDXFJcKyQRz6eM)
 - [IMC Coverage](https://manualzz.com/doc/33007293/incisive-coverage-user-guide)
 - Command: cdnshelp // To access all the product manuals
 
@@ -11,7 +11,7 @@
 - [DVE : Discovery Visual Environment](https://github.com/gs1293/pdfs/blob/main/tools/dve.pdf) | [Source](https://inst.eecs.berkeley.edu/~eecs151/sp18/files/dve_ug.pdf)
 - [DC : Design Compiler](https://github.com/gs1293/pdfs/blob/main/tools/design_compiler.pdf) | [Optimization](https://github.com/gs1293/pdfs/blob/main/tools/dc_optimization.pdf) | [Synthesis Quick Reference](https://github.com/gs1293/pdfs/blob/main/tools/synthesis.pdf)
 - Spyglass Lint
-- [Verdi](https://github.com/gs1293/pdfs/blob/main/tools/verdi.pdf) | [Source](https://pdfslide.net/documents/verdi-3-user-guide-and-tutorial.html)
+- [Verdi](https://github.com/gs1293/pdfs/blob/main/tools/verdi.pdf) | [Source](https://pdfslide.net/documents/verdi-3-user-guide-and-tutorial.html) | [playlist](https://www.youtube.com/playlist?list=PLEgCreVKPx5ANYtZgq6S4nZp6lZbNpNEQ)
 
 ### Ansys:
 - Power Artist
