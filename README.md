@@ -6,8 +6,6 @@
 
 ## [Books List](books/book_list.md)
 
-## [Resume](resume/resume.pdf)
-
 ## Important Topics:
 * [ASIC Design Flow](topics/asic_design_flow.md)
 * [CDC](topics/cdc.md)
