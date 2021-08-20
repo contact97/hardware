@@ -11,6 +11,7 @@
 * Design a n mod counter and make divide by 5 frequency divider using this
 * Find Max allowed frequency
   ![pic7](../images/pic7.jpg)
+  https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
 * What kind of errors or warnings do you get in lint, Do we solve all of them ?
 * If we put reset in flop, does it increase gate count ?
 * Tell the difference between synchronous and Asynchronous reset and pro and cons
