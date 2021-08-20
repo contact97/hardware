@@ -8,6 +8,7 @@
 * Explain all techniques of CDC
 * How would you detect 10110 sequence
 * Write FSM of Lift
+  https://www.cs.princeton.edu/courses/archive/spr06/cos116/FSM_Tutorial.pdf
 * Design a n mod counter and make divide by 5 frequency divider using this
 * Find Max allowed frequency
   ![pic7](../images/pic7.jpg)
