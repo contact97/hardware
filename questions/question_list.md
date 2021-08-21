@@ -25,11 +25,15 @@ https://www.eeeguide.com/half-adder-and-full-adder-circuit/
 
 module d_latch
 (
-    input d,
-    input en,
-    input rstn,
-    output reg q
+    input  wire d   , // 1-bit input pin for data
+    input  wire en  , // 1-bit input pin for enabling the latch
+    input  wire rstn, // 1-bit input pin for active-low reset
+    output reg  q     // 1-bit output pin for data output
 );
+
+// This always bock is "always" triggered whenever en/rstn/d changes
+// If reset is asserted then output will be zero
+// Else as long as enable is high, output q follows input d
 
 always @(en or rstn or d)
 begin
@@ -37,12 +41,9 @@ begin
     begin
         q <= 0;
     end
-    else
+    else if(en)
     begin
-        if(en)
-        begin
-            q <= d;
-        end
+        q <= d;
     end
 end  
     
