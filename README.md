@@ -18,10 +18,7 @@
 * [Mod N Counter](topics/counter.md)
 * [Gate Level Simulation](topics/gls.md)
 * Verilog coding styles (asic-world etc)
-* Verilog TB syntax from projects
-* Check each tool details and their report format
-* Image verification optimization techniques
-* Previous NVIDIA interviews.
+* Verilog TB syntax
 * C++ and Python code syntax basics
 * [Synchronous and Asynchrounous Resets](topics/resets.md)
 
