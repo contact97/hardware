@@ -10,8 +10,6 @@ The next picture shows how to connect the four full-adders in the desired way. T
 
 ![](../images/full_adder_2.png)
 
-As I mentioned when I posted the puzzle, I used this in an actual design. In clock and data recovery circuits (CDRs) it is necessary to integrate the amount of “ups” and “downs” a phase detector outputs (if this tells you nothing, please hold on till the CDR post I am planning). Basically, you receive two vectors of a given length, one represents “ups” the other “downs”. You have to sum up the amount of “1”s in each vector and subtract one from the other. Summing up the amount of “1”s is done using this full-adder arrangement. Another way would be using a LUT (posts on LUTs are planned as well…).
-  
 ##  
   
 * Find the max allowed frequency for following diagram
