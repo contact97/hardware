@@ -37,3 +37,7 @@
 - https://inst.eecs.berkeley.edu/~cs250/fa09/handouts/tut4-vcs.pdf
 - https://topic.alibabacloud.com/a/methods-for-generating-various-waveform-files-vcdvpdshmfsdb_8_8_30045794.html
 - https://www.programmersought.com/article/6864495497/
+
+
+Check each tool details and their report format
+Add commands with most used flags explanation
