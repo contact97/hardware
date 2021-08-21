@@ -2,7 +2,7 @@
 
 **Question:** Input is 7-bit binary number. Output the amount of “1”s present. For ex. for the inputs 1100110 and 1001110 the result should be the same and equal to 100 (4 in binary). Can use only Full Adders. Describe the circuit with minimum amount of parts.
 
-**Answer:** 4 full-adder units are necessary to count the amount of “1”s in a 7-bit vector. 
+**Answer:** 4 full-adder units are necessary to count the amount of “1”s in a 7-bit vector.
 
 The most important thing to notice is that a full-adder “counts” the amount of “1”s of it’s inputs. If you are not convinced , then a brief look in the component’s truth table will prove this to you. The output is a binary represented 2-bit number.
 
@@ -15,13 +15,15 @@ The next picture shows how to connect the four full-adders in the desired way. T
 
 https://www.eeeguide.com/half-adder-and-full-adder-circuit/
 
-##  
+##
 
 **Question:** Write verilog code for D flop and D latch.
 
 **Answer:**
 
 ```verilog
+
+// D Latch with active-low reset
 
 module d_latch
 (
@@ -45,12 +47,61 @@ begin
     begin
         q <= d;
     end
-end  
-    
+end
 
 ```
 
-  
+```verilog
+
+// D Flip-Flop with synchronous active-low reset
+
+module dff
+(
+    input  wire d   ,
+    input  wire rstn,
+    input  wire clk ,
+    output reg  q
+);
+
+always @(posedge clk)
+begin
+    if(!rstn)
+    begin
+        q <= 0;
+    end
+    begin
+        q <= d;
+    end
+end
+
+```
+
+```verilog
+
+// D Flip-Flop with asynchronous active-low reset
+
+module dff
+(
+    input  wire d   ,
+    input  wire rstn,
+    input  wire clk ,
+    output reg  q
+);
+
+always @(posedge clk or negedge rstn)
+begin
+    if(!rstn)
+    begin
+        q <= 0;
+    end
+    begin
+        q <= d;
+    end
+end
+
+```
+
+
 * Find the max allowed frequency for following diagram
   ![pic6](../images/pic6.jpg)
 * How would you transfer a pulse of one clock period width from clock domain A to clock domain B
