@@ -39,14 +39,8 @@ module d_latch
 
 always @(en or rstn or d)
 begin
-    if(!rstn)
-    begin
-        q <= 0;
-    end
-    else if(en)
-    begin
-        q <= d;
-    end
+    if(!rstn)   begin q <= 0; end
+    else if(en) begin q <= d; end
 end
 
 ```
@@ -65,13 +59,8 @@ module dff
 
 always @(posedge clk)
 begin
-    if(!rstn)
-    begin
-        q <= 0;
-    end
-    begin
-        q <= d;
-    end
+    if(!rstn) begin q <= 0; end
+    else      begin q <= d; end
 end
 
 ```
@@ -90,42 +79,125 @@ module dff
 
 always @(posedge clk or negedge rstn)
 begin
-    if(!rstn)
-    begin
-        q <= 0;
-    end
-    begin
-        q <= d;
-    end
+    if(!rstn) begin q <= 0; end
+    else      begin q <= d; end
 end
 
 ```
 
+##
 
-* Find the max allowed frequency for following diagram
-  ![pic6](../images/pic6.jpg)
-* How would you transfer a pulse of one clock period width from clock domain A to clock domain B
-* Explain all techniques of CDC
-* How would you detect 10110 sequence
-* Write FSM of Lift
-  https://www.cs.princeton.edu/courses/archive/spr06/cos116/FSM_Tutorial.pdf
-* Design a n mod counter and make divide by 5 frequency divider using this
-* Find Max allowed frequency
-  ![pic7](../images/pic7.jpg)
-  https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
-* What kind of errors or warnings do you get in lint, Do we solve all of them ?
-* If we put reset in flop, does it increase gate count ?
-* Tell the difference between synchronous and Asynchronous reset and pro and cons
-* Why do you reset all flops on frame start ?
-* What are non resettable flops and where are they used ?
-* What does it mean by 14nm in synthesis ?
+**Question:** Find the max allowed frequency for following diagram
+![pic6](../images/pic6.jpg)
 
-* What is clock gating, draw a diagram, What happens when we do the clock gating
-* In a system, sender is sending data at 60bytes/100clocks and at receiver end,  it is receiving at 6bytes/10clocks so find the min depth of fifo
-* Whats ripple carry adder ?
-* Make Full adder truth table
+**Answer:**
 
-* To delay 10bit value to 10 clocks, how many flops are needed
+##
+
+**Question:** How would you transfer a pulse of one clock period width from clock domain A to clock domain B
+
+**Answer:**
+
+##
+
+**Question:** Explain all techniques of CDC
+
+**Answer:**
+
+##
+
+**Question:** How would you detect 10110 sequence
+
+**Answer:**
+
+##
+
+**Question:** Write FSM of Lift
+https://www.cs.princeton.edu/courses/archive/spr06/cos116/FSM_Tutorial.pdf
+
+**Answer:**
+
+##
+
+**Question:** Design a n mod counter and make divide by 5 frequency divider using this
+
+**Answer:**
+
+##
+
+**Question:** Find Max allowed frequency
+![pic7](../images/pic7.jpg)
+https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
+
+**Answer:**
+
+##
+
+**Question:** What kind of errors or warnings do you get in lint, Do we solve all of them ?
+
+**Answer:**
+
+##
+
+**Question:** If we put reset in flop, does it increase gate count ?
+
+**Answer:**
+
+##
+
+**Question:** Tell the difference between synchronous and Asynchronous reset and pro and cons
+
+**Answer:**
+
+##
+
+**Question:** Why do you reset all flops on frame start ?
+
+**Answer:**
+
+##
+
+**Question:** What are non resettable flops and where are they used ?
+
+**Answer:**
+
+##
+
+**Question:** What does it mean by 14nm in synthesis ?
+
+**Answer:**
+
+##
+
+**Question:** What is clock gating, draw a diagram, What happens when we do the clock gating
+
+**Answer:**
+
+##
+
+**Question:** In a system, sender is sending data at 60bytes/100clocks and at receiver end,  it is receiving at 6bytes/10clocks so find the min depth of fifo
+
+**Answer:**
+
+##
+
+**Question:** Whats ripple carry adder ?
+
+**Answer:**
+
+##
+
+**Question:** Make Full adder truth table
+
+**Answer:**
+
+##
+
+**Question:** To delay 10bit value to 10 clocks, how many flops are needed
+
+**Answer:**
+
+##
 
 * D-Flip Flop Master Slave:
 ![pic1](../images/pic1.png)
@@ -144,7 +216,6 @@ end
 | Big-Endian | Little-Endian |
 | :---:      | :---:         |
 | <img src="../images/big_endian.png" width="400"> | <img src="../images/little_endian.png" width="400"> |
-
 
 Analog Devices Interview:
 - CDC all problems and solutions
