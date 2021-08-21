@@ -13,6 +13,8 @@ The next picture shows how to connect the four full-adders in the desired way. T
   <img src="../images/full_adder_2.png" width="30%">
 </p>
 
+https://www.eeeguide.com/half-adder-and-full-adder-circuit/
+
 ##  
   
 * Find the max allowed frequency for following diagram
