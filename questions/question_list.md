@@ -16,6 +16,39 @@ The next picture shows how to connect the four full-adders in the desired way. T
 https://www.eeeguide.com/half-adder-and-full-adder-circuit/
 
 ##  
+
+**Question:** Write verilog code for D flop and D latch.
+
+**Answer:**
+
+```verilog
+
+module d_latch
+(
+    input d,
+    input en,
+    input rstn,
+    output reg q
+);
+
+always @(en or rstn or d)
+begin
+    if(!rstn)
+    begin
+        q <= 0;
+    end
+    else
+    begin
+        if(en)
+        begin
+            q <= d;
+        end
+    end
+end  
+    
+
+```
+
   
 * Find the max allowed frequency for following diagram
   ![pic6](../images/pic6.jpg)
@@ -34,7 +67,7 @@ https://www.eeeguide.com/half-adder-and-full-adder-circuit/
 * Why do you reset all flops on frame start ?
 * What are non resettable flops and where are they used ?
 * What does it mean by 14nm in synthesis ?
-* Writer a verilog code for D flop and D latch
+
 * What is clock gating, draw a diagram, What happens when we do the clock gating
 * In a system, sender is sending data at 60bytes/100clocks and at receiver end,  it is receiving at 6bytes/10clocks so find the min depth of fifo
 * Whats ripple carry adder ?
