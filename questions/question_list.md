@@ -1,7 +1,9 @@
 # Interview Questions List
 
-* There is a 8 bit number, how many full adders are needed to count number of 1’s
-  https://asicdigitaldesign.wordpress.com/2007/05/23/aclp-2-solution/#:~:text=4%20full%2Dadder%20units%20are,in%20a%207%2Dbit%20vector.
+**Question** Input is 7-bit binary number. Output the amount of “1”s present. For ex. for the inputs 1100110 and 1001110 the result should be the same and equal to 100 (4 in binary). Can use only Full Adders. Describe the circuit with minimum amount of parts.
+
+**Answer** https://asicdigitaldesign.wordpress.com/2007/05/23/aclp-2-solution/#:~:text=4%20full%2Dadder%20units%20are,in%20a%207%2Dbit%20vector
+  
 * Find the max allowed frequency for following diagram
   ![pic6](../images/pic6.jpg)
 * How would you transfer a pulse of one clock period width from clock domain A to clock domain B
