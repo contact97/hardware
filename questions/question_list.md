@@ -2,13 +2,16 @@
 
 **Question:** Input is 7-bit binary number. Output the amount of “1”s present. For ex. for the inputs 1100110 and 1001110 the result should be the same and equal to 100 (4 in binary). Can use only Full Adders. Describe the circuit with minimum amount of parts.
 
-**Answer:** 4 full-adder units are necessary to count the amount of “1”s in a 7-bit vector. The most important thing to notice is that a full-adder “counts” the amount of “1”s of it’s inputs. If you are not convinced , then a brief look in the component’s truth table will prove this to you. The output is a binary represented 2-bit number.
+**Answer:** 4 full-adder units are necessary to count the amount of “1”s in a 7-bit vector. 
 
-![](../images/full_adder_1.png)
+The most important thing to notice is that a full-adder “counts” the amount of “1”s of it’s inputs. If you are not convinced , then a brief look in the component’s truth table will prove this to you. The output is a binary represented 2-bit number.
 
 The next picture shows how to connect the four full-adders in the desired way. The first stage generates two 2-bit numbers, each represents the amount of “1”s among its respected three input bits. The second stage adds those two binary numbers together and uses the carry_in of one full-adder for the 7th bit.
 
-![](../images/full_adder_2.png)
+<p align="middle">
+  <img src="../images/full_adder_1.png" width="40%" hspace="80">
+  <img src="../images/full_adder_2.png" width="30%">
+</p>
 
 ##  
   
