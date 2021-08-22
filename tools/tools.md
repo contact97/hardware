@@ -162,6 +162,8 @@ Add commands with most used flags explanation
   simv -i \
       -v 1906.sp2.12 \
       -lca \
+      -cm line+cond+fsm+tgl \
+      -cm_dir coverage/"$1""_""$block""_""$seed_number"".vdb" \      
       +vcs+lic+wait \
       +nospecify \
       +notimingcheck \
