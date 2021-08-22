@@ -81,7 +81,44 @@ Add commands with most used flags explanation
 
 ## Commands:
 - ```bash
-  irun
+  irun -i \
+      -v 19.03 \
+      -sv \
+      -override_timescale \
+      -timescale 1ns/1ns \
+      -64bit \
+      -nospecify \
+      -licqueue \
+      -profile \
+      +xmaccess+rw \
+      -nowarn TSNSPK \
+      -nowarn WBVNEM \
+      -nowarn FUNTSK \
+      -nowarn CUVIHR \
+      -nowarn DSEMEL \
+      -nowarn DSEM2009 \
+      -nowarn ICDPAVW \
+      -uvmnoautocompile \
+      -define SVT_UVM_TECHNOLOGY \
+      -define CADENCE \
+      +define+UVM_PACKER_MAX_BYTES=1500000 \
+      +incdir+../tb \
+      +incdir+../tests \
+      -define I_RUN \
+      -define $block \
+      -f top_file \
+      -input cmd.tcl \
+      -svseed $seed_number \
+      -logfile ./log/"$1""_""$block""_""$seed_number"".log" \
+      -uvmhome $UVM_HOME \
+      +C_RUN=$c_run \
+      +DIRECTED_FRAME=$directed_frame \
+      +GOLDEN_FRAME=$golden_frame \
+      +RANDOM_FRAME=$random_frame \
+      +WIDTH=$image_width \
+      +HEIGHT=$image_height \
+      +UVM_TESTNAME=$1 \
+      +UVM_VERBOSITY=$verbosity      
   ```
 - ```bash
   simvision
