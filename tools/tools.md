@@ -34,6 +34,15 @@
 - VPD : VCD Plus
 - FSDB : Fast Signal DataBase
 - SHM :
+  ```tcl
+  # Filename       : cmd.tcl, 
+  # Usage with irun: -input cmd.tcl
+  
+  database -open -shm -into waveform/waves.shm waves -default -incsize 500M # setting waveform dump directory/name/size
+  probe -create tb_top -depth all -all -dynamic -memories -shm -waveform    # modify top module name: "tb_top"
+  run
+  exit
+  ```
 - https://inst.eecs.berkeley.edu/~cs250/fa09/handouts/tut4-vcs.pdf
 - https://topic.alibabacloud.com/a/methods-for-generating-various-waveform-files-vcdvpdshmfsdb_8_8_30045794.html
 - https://www.programmersought.com/article/6864495497/
