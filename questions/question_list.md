@@ -208,8 +208,10 @@ https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.ht
 
 ##
 
-* Toggle Synchronizer CDC:
-![pic2](../images/pic2.png)
+Toggle Synchronizer CDC:
+<p align="middle">
+  <img src="../images/pic2.png">
+</p>
 
 ##
 
