@@ -222,10 +222,11 @@ Toggle Synchronizer CDC:
 
 **Question:** How to implement a glitch free clock mux?
 
-**Answer:** https://vlsitutorials.com/glitch-free-clock-mux/
-            https://www.eetimes.com/techniques-to-make-clock-switching-glitch-free/
-            https://vlsiuniverse.blogspot.com/2017/03/clock-multiplexer.html
-            https://rtlery.com/components/glitch-free-clock-multiplexermux
+**Answer:** 
+- https://vlsitutorials.com/glitch-free-clock-mux/
+- https://www.eetimes.com/techniques-to-make-clock-switching-glitch-free/
+- https://vlsiuniverse.blogspot.com/2017/03/clock-multiplexer.html
+- https://rtlery.com/components/glitch-free-clock-multiplexermux
 
 Analog Devices Interview:
 - CDC all problems and solutions
