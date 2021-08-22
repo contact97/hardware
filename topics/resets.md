@@ -15,3 +15,4 @@
 * [Link9](https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-challenges-and-solutions/#:~:text=Asynchronous%20reset%20does%20not%20require,not%20affect%20data%20path%20timing.)
 * [Link10](https://vlsiuniverse.blogspot.com/2017/04/synchronous-and-asynchronous-resets.html)
 * [Lihnk11](https://vlsiuniverse.blogspot.com/2019/07/reset-design-and-timing-interview-questions.html)
+* [Reset Synchronizer](https://www.youtube.com/watch?v=mYSEVdUPvD8)
