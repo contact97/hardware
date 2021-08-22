@@ -118,17 +118,34 @@ Add commands with most used flags explanation
       +WIDTH=$image_width \
       +HEIGHT=$image_height \
       +UVM_TESTNAME=$1 \
-      +UVM_VERBOSITY=$verbosity      
+      +UVM_VERBOSITY=$verbosity  
+ 
+  // Other options:
+  +access+rwc
+  -fast
+  -licq
+  -seed random
+  -compile
   ```
 - ```bash
-  simvision
+  simvision -v 19.03 -i &
   ```
 - ```bash
   vcs
   ```
 - ```bash
-  dve
+  pa_shell -i -v 2020.r2.1 -dc_version 2017.09.sp5 -wait -artist -gui &
   ```
 - ```bash
   dc_shell
-  ```  
+  ```
+- ```bash
+  # For Debugging:
+  dve -v 1809.sp2.6 -full64 -global -i &
+  
+  # For Code Coverage:
+  dve -v 1809.sp2.6 -full64 -global -i -cov &
+  ``` 
+- ```bash
+  verdi -v 2016.06.sp2.3 -global -i &
+  ```   
