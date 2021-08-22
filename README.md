@@ -76,7 +76,7 @@
 * ECO : Engineering Change Order
 * SVP : Silicon Virtual Prototyping
 * SI : Signal Integrity
-* EDA : Electronic Design Automation\
+* EDA : Electronic Design Automation
 * Arbiter
 * priority memory accessing
-* interconnect protocols (AMBA, AGB, APB, OCP)
+* interconnect protocols (AMBA, AXI, APB, OCP)
