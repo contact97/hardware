@@ -17,6 +17,18 @@ https://www.eeeguide.com/half-adder-and-full-adder-circuit/
 
 ##
 
+**Question:** Whats ripple carry adder ?
+
+**Answer:**
+
+##
+
+**Question:** Make Full adder truth table
+
+**Answer:**
+
+##
+
 **Question:** Write verilog code for D flop and D latch.
 
 **Answer:**
@@ -169,27 +181,9 @@ https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.ht
 
 ##
 
-**Question:** What is clock gating, draw a diagram, What happens when we do the clock gating
-
-**Answer:**
-
-##
-
 **Question:** In a system, sender is sending data at 60bytes/100clocks and at receiver end,  it is receiving at 6bytes/10clocks so find the min depth of fifo
 
-**Answer:**
-
-##
-
-**Question:** Whats ripple carry adder ?
-
-**Answer:**
-
-##
-
-**Question:** Make Full adder truth table
-
-**Answer:**
+**Answer:** [Check Case-9](https://github.com/gs1293/pdfs/blob/main/design/async_fifo_3.pdf)
 
 ##
 
@@ -199,23 +193,30 @@ https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.ht
 
 ##
 
-* D-Flip Flop Master Slave:
-![pic1](../images/pic1.png)
+**Question:** Discuss the difference between Big-Endian and Little-Endian.
 
-* Toggle Synchronizer CDC:
-![pic2](../images/pic2.png)
-
-* Mod 3 counter:
-![pic3](../images/pic3.png)
-
-* Clock Gating:
-![pic5](../images/pic5.png)
-
-* Endianness: In computing, endianness is the order or sequence of bytes of a word of digital data in computer memory. Endianness is primarily expressed as big-endian (BE) or little-endian (LE). A big-endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. A little-endian system, in contrast, stores the least-significant byte at the smallest address.
+**Answer:** In computing, endianness is the order or sequence of bytes of a word of digital data in computer memory. Endianness is primarily expressed as big-endian (BE) or little-endian (LE). A big-endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. A little-endian system, in contrast, stores the least-significant byte at the smallest address.
 
 | Big-Endian | Little-Endian |
 | :---:      | :---:         |
 | <img src="../images/big_endian.png" width="400"> | <img src="../images/little_endian.png" width="400"> |
+
+##
+
+* D-Flip Flop Master Slave:
+![pic1](../images/pic1.png)
+
+##
+
+* Toggle Synchronizer CDC:
+![pic2](../images/pic2.png)
+
+##
+
+* Mod 3 counter:
+![pic3](../images/pic3.png)
+
+##
 
 Analog Devices Interview:
 - CDC all problems and solutions
