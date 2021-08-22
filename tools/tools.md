@@ -29,7 +29,7 @@
 - [GTKWave](http://gtkwave.sourceforge.net/) [(user_guide)](http://inf-server.inf.uth.gr/~konstadel/resources/Icarus_Verilog_GTKWave_guide.pdf)
 - [Wavedrom](https://wavedrom.com/)
 
-# Dumps
+# Dumps:
 - VCD : Value Change Dump
 - VPD : VCD Plus
 - FSDB : Fast Signal DataBase
@@ -41,3 +41,20 @@
 
 Check each tool details and their report format
 Add commands with most used flags explanation
+
+## Commands:
+- ```bash
+  irun
+  ```
+- ```bash
+  simvision
+  ```
+- ```bash
+  vcs
+  ```
+- ```bash
+  dve
+  ```
+- ```bash
+  dc_shell
+  ```  
