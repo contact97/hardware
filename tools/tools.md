@@ -31,6 +31,30 @@
 
 # Dumps:
 - VCD : Value Change Dump
+  ```verilog
+  
+  initial
+  begin
+      $dumpfile(“waveform.vcd");
+      $dumpvars;
+  end
+  
+  // Extra useful commands:
+  $dumpfile("file.dump"); Open a VCD database for logging
+  $dumpvars(level,start_module); The signal to be recorded, level=0 means record all
+  $dumpflush; Save VCD data to disk (do not understand)
+  $dumpoff; stop recording
+  $dumpon; restart recording
+  $dumplimit(); Limits the size of the VCD file in bytes
+  $dumpall; records all specified signal values
+  
+  $dumpvars; // Dump all levels of signal
+  $dumpvars(1, top); // All signals in the Dump top module
+  $dumpvars(2, top.u1); // Dump instance top. u1 and the signal below it
+  $dumpvars(0, top.u2, top.u1.u13.q); // Dump top.u2 and all of its signals below, and the signal top.u1.u13.q.
+  $dumpvars(3, top.u2, top.u1); // Dump top.u1 and top.u2 and all signals in the next two layers.
+  
+  ```
 - VPD : VCD Plus
 - FSDB : Fast Signal DataBase
 - SHM :
