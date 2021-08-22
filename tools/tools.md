@@ -128,10 +128,50 @@ Add commands with most used flags explanation
   -compile
   ```
 - ```bash
-  simvision -v 19.03 -i &
-  ```
-- ```bash
-  vcs
+  vcs -i \
+      -v 1906.sp2.12 \
+      -lca \
+      -cm line+cond+fsm+tgl \
+      -cm_dir coverage/"$1""_""$block""_""$seed_number"".vdb" \
+      -sverilog +v2k -V \
+      -override_timescale=1ns/1ns \
+      -ntb_opts uvm \
+      -debug_pp \
+      -notice \
+      -full64 \
+      +plusarg_save \
+      +memcbk \
+      +nospecify \
+      +notimingcheck \
+      +vcs+lic+wait \
+      +incdir+../tb \
+      +incdir+../tests \
+      +define+UVM_PACKER_MAX_BYTES=1500000 \
+      +define+WAVES_VPD \
+      +define+VCS_RUN \
+      +define+$block \
+      +DIRECTED_FRAME=$directed_frame \
+      +GOLDEN_FRAME=$golden_frame \
+      +RANDOM_FRAME=$random_frame \
+      +WIDTH=$image_width \
+      +HEIGHT=$image_height \
+      +C_RUN=$c_run \
+      -f top_file \
+      +UVM_TESTNAME=$1
+  
+  simv -i \
+      -v 1906.sp2.12 \
+      -lca \
+      +vcs+lic+wait \
+      +nospecify \
+      +notimingcheck \
+      +ntb_stop_on_constraint_solver_error=1 \
+      +ntb_random_seed=$seed_number \
+      +vpdfile+waveform/"$1""_""$block""_""$seed_number"".vpd" \
+      -l log/"$1""_""$block""_""$seed_number"".log" \
+      run \
+      +UVM_TESTNAME=$1 \
+      +UVM_VERBOSITY=$verbosity      
   ```
 - ```bash
   pa_shell -i -v 2020.r2.1 -dc_version 2017.09.sp5 -wait -artist -gui &
@@ -139,6 +179,9 @@ Add commands with most used flags explanation
 - ```bash
   dc_shell
   ```
+- ```bash
+  simvision -v 19.03 -i &
+  ```  
 - ```bash
   # For Debugging:
   dve -v 1809.sp2.6 -full64 -global -i &
