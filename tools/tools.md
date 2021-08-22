@@ -38,8 +38,12 @@
   # Filename       : cmd.tcl, 
   # Usage with irun: -input cmd.tcl
   
-  database -open -shm -into waveform/waves.shm waves -default -incsize 500M # setting waveform dump directory/name/size
-  probe -create tb_top -depth all -all -dynamic -memories -shm -waveform    # modify top module name: "tb_top"
+  # setting waveform dump directory/name/size
+  database -open -shm -into waveform/waves.shm waves -default -incsize 500M
+  
+  # modify top module name: "tb_top" as per usage
+  probe -create tb_top -depth all -all -dynamic -memories -shm -waveform
+  
   run
   exit
   ```
