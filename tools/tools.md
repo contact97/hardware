@@ -178,8 +178,25 @@ Add commands with most used flags explanation
 - ```bash
   pa_shell -i -v 2020.r2.1 -dc_version 2017.09.sp5 -wait -artist -gui &
   ```
-- ```bash
-  dc_shell
+- ```csh
+  set DATE = "`date '+%y%m%d'`"
+  setenv DATE $DATE
+  
+  setenv SNPSLMD_QUEUE true
+  
+  dc_shell -i \
+      -v 2018.06.sp2 \
+      -f "./0_block_syn_script/dc.tcl" \
+      -checkout "Test-Compiler" \
+      -checkout "DesignWare" \
+      -checkout "Power-Optimization" \
+      -checkout "DC-Ultra-Opt" \
+      -checkout "DC-Ultra-Features" \
+      -no_local_init \
+      -x "date" \
+      -wait 14400 \
+      -64bit \
+      -output_log_file "./5_log/$DATE/syn.log"
   ```
 - ```bash
   simvision -v 19.03 -i &
