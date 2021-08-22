@@ -100,9 +100,20 @@ end
 ##
 
 **Question:** Find the max allowed frequency for following diagram
-![pic6](../images/pic6.jpg)
+<p align="middle">
+  <img src="../images/pic6.jpg" width="60%">
+</p>
 
-**Answer:**
+**Answer:** https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
+
+##
+
+**Question:** Find Max allowed frequency
+<p align="middle">
+  <img src="../images/pic7.jpg"  width="60%">
+</p>
+
+**Answer:** https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
 
 ##
 
@@ -132,14 +143,6 @@ https://www.cs.princeton.edu/courses/archive/spr06/cos116/FSM_Tutorial.pdf
 ##
 
 **Question:** Design a n mod counter and make divide by 5 frequency divider using this
-
-**Answer:**
-
-##
-
-**Question:** Find Max allowed frequency
-![pic7](../images/pic7.jpg)
-https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
 
 **Answer:**
 
