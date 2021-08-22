@@ -228,7 +228,9 @@ Toggle Synchronizer CDC:
 - https://vlsiuniverse.blogspot.com/2017/03/clock-multiplexer.html
 - https://rtlery.com/components/glitch-free-clock-multiplexermux
 
-Analog Devices Interview:
+##
+
+**Analog Devices Interview Questions from Glassdoor:**
 - CDC all problems and solutions
 - Setup and Hold Time
 - Circuit design questions
