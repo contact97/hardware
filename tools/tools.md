@@ -31,22 +31,21 @@
 
 # Dumps:
 - VCD : Value Change Dump
-  ```verilog
-  
+  ```systemverilog
   initial
   begin
-      $dumpfile(“waveform.vcd");
+      $dumpfile("waveform.vcd");
       $dumpvars;
   end
   
   // Extra useful commands:
-  $dumpfile("file.dump"); Open a VCD database for logging
-  $dumpvars(level,start_module); The signal to be recorded, level=0 means record all
-  $dumpflush; Save VCD data to disk (do not understand)
-  $dumpoff; stop recording
-  $dumpon; restart recording
-  $dumplimit(); Limits the size of the VCD file in bytes
-  $dumpall; records all specified signal values
+  $dumpfile("file.dump"); // Open a VCD database for logging
+  $dumpvars(level,start_module); // The signal to be recorded, level=0 means record all
+  $dumpflush; // Save VCD data to disk (do not understand)
+  $dumpoff; // stop recording
+  $dumpon; // restart recording
+  $dumplimit(); // Limits the size of the VCD file in bytes
+  $dumpall; // records all specified signal values
   
   $dumpvars; // Dump all levels of signal
   $dumpvars(1, top); // All signals in the Dump top module
@@ -56,6 +55,14 @@
   
   ```
 - VPD : VCD Plus
+  ```systemverilog
+  `ifdef WAVES_VPD
+  initial
+  begin
+      $vcdpluson;
+      $vcdplusmemon;
+  end
+  ```
 - FSDB : Fast Signal DataBase
 - SHM :
   ```tcl
@@ -199,15 +206,15 @@ Add commands with most used flags explanation
       -output_log_file "./5_log/$DATE/syn.log"
   ```
 - ```bash
-  simvision -v 19.03 -i &
+  simvision -v 19.03 -i
   ```  
 - ```bash
   # For Debugging:
-  dve -v 1809.sp2.6 -full64 -global -i &
+  dve -v 1809.sp2.6 -full64 -global -i
   
   # For Code Coverage:
-  dve -v 1809.sp2.6 -full64 -global -i -cov &
+  dve -v 1809.sp2.6 -full64 -global -i -cov
   ``` 
 - ```bash
-  verdi -v 2016.06.sp2.3 -global -i &
+  verdi -v 2016.06.sp2.3 -global -i
   ```   
