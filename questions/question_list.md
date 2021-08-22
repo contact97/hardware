@@ -204,7 +204,9 @@ https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.ht
 ##
 
 * D-Flip Flop Master Slave:
-![pic1](../images/pic1.png)
+<p align="middle">
+  <img src="../images/pic1.png">
+</p>
 
 ##
 
@@ -212,11 +214,6 @@ Toggle Synchronizer CDC:
 <p align="middle">
   <img src="../images/pic2.png">
 </p>
-
-##
-
-* Mod 3 counter:
-![pic3](../images/pic3.png)
 
 ##
 
