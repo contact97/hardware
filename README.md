@@ -17,10 +17,10 @@
 * [Frequency Divider](topics/freq_divider.md)
 * [Mod N Counter](topics/counter.md)
 * [Gate Level Simulation](topics/gls.md)
-* Verilog coding styles (asic-world etc)
-* Verilog TB syntax
-* C++ and Python code syntax basics
+* [Verilog Design coding styles](topics/verilog_dut.md)
+* [Verilog TB syntax](topics/verilog_tb.md)
 * [Synchronous and Asynchrounous Resets](topics/resets.md)
+* C++ and Python code syntax basics
 
 ## [Interview Questions](questions/question_list.md)
 
