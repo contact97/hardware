@@ -79,4 +79,5 @@
 * EDA : Electronic Design Automation
 * Arbiter
 * priority memory accessing
+* DDR interface (ex. NPU)
 * interconnect protocols (AMBA, AXI, APB, OCP)
