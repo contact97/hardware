@@ -10,7 +10,7 @@
 - [VCS : Verilog Compiler Simulator](https://github.com/gs1293/pdfs/blob/main/tools/vcs.pdf) | [Source](https://inst.eecs.berkeley.edu/~eecs151/sp18/files/vcsmx_ug.pdf)
 - [DVE : Discovery Visual Environment](https://github.com/gs1293/pdfs/blob/main/tools/dve.pdf) | [Source](https://inst.eecs.berkeley.edu/~eecs151/sp18/files/dve_ug.pdf)
 - [DC : Design Compiler](https://github.com/gs1293/pdfs/blob/main/tools/design_compiler.pdf) | [Optimization](https://github.com/gs1293/pdfs/blob/main/tools/dc_optimization.pdf) | [Synthesis Quick Reference](https://github.com/gs1293/pdfs/blob/main/tools/synthesis.pdf)
-- Spyglass Lint
+- [Spyglass Lint](https://github.com/gs1293/pdfs/blob/main/tools/spyglass_lint_1.pdf) | [Intro](https://github.com/gs1293/pdfs/blob/main/tools/spyglass_lint_2.pdf)
 - [Verdi](https://github.com/gs1293/pdfs/blob/main/tools/verdi.pdf) | [Source](https://pdfslide.net/documents/verdi-3-user-guide-and-tutorial.html) | [playlist](https://www.youtube.com/playlist?list=PLEgCreVKPx5ANYtZgq6S4nZp6lZbNpNEQ)
 
 ### Ansys:
