@@ -218,3 +218,7 @@ Add commands with most used flags explanation
 - ```bash
   verdi -v 2016.06.sp2.3 -global -i
   ```   
+
+## SpyGlass Lint Errors/Warnings:
+- https://chipressco.wpcomstaging.com/2019/05/16/what-are-the-most-critical-errors-in-lint/
+- https://www.techdesignforums.com/practice/guides/lint-rtl/
