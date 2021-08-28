@@ -20,7 +20,7 @@
 - Quartus
 
 ### Mentor Graphics:
-- [ModelSim](https://www.microsemi.com/document-portal/doc_download/136662-modelsim-me-10-5c-user-u-s-manual-for-libero-soc-v11-8)
+- [ModelSim](https://github.com/gs1293/pdfs/blob/main/tools/modelsim.pdf)| [Source](https://www.microsemi.com/document-portal/doc_download/136662-modelsim-me-10-5c-user-u-s-manual-for-libero-soc-v11-8)
 
 ### Open Source:
 - [Icarus Verilog](http://iverilog.icarus.com/) [(user_guide)](https://iverilog.fandom.com/wiki/User_Guide)
