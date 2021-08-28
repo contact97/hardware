@@ -2,7 +2,7 @@
 
 ## Flip-Flops:
 - [Basics of Flip-Flops](https://github.com/gs1293/pdfs/blob/main/design/flip_flop_1.pdf)
-- [Flip-Flop Applications](https://github.com/gs1293/pdfs/blob/main/design/flip_flop_1.pdf)
+- [Flip-Flop Applications](https://github.com/gs1293/pdfs/blob/main/design/flip_flop_2.pdf)
 
 ##
 
