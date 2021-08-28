@@ -1,5 +1,10 @@
 # Interview Questions List
 
+- [Basic Digital Design](https://github.com/gs1293/pdfs/blob/main/interview/basic_digital_qa.pdf)
+- [Static Timing Analysis](https://github.com/gs1293/pdfs/blob/main/books/sta_interview_questions.pdf)
+
+##
+
 **Question:** Input is 7-bit binary number. Output the amount of “1”s present. For ex. for the inputs 1100110 and 1001110 the result should be the same and equal to 100 (4 in binary). Can use only Full Adders. Describe the circuit with minimum amount of parts.
 
 **Answer:** 4 full-adder units are necessary to count the amount of “1”s in a 7-bit vector.
