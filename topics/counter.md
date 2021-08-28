@@ -2,6 +2,9 @@
 
 ## Flip-Flops:
 
+- [Basics of Flip-Flops](https://github.com/gs1293/pdfs/blob/main/design/flip_flop_1.pdf)
+- [Flip-Flop Applications](https://github.com/gs1293/pdfs/blob/main/design/flip_flop_1.pdf)
+
 - Each flip-flop stores a single bit of data, which is emitted through the Q output.
 - Normally, the value can be controlled via the inputs to the flip-flop.
 - In particular, the value changes at the active clock edge according to the corresponding table below:
