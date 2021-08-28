@@ -1,4 +1,4 @@
-# Hardware design related resources
+# Hardware Design related resources
 
 <p align="center">
   <img src="https://www.system-to-asic.com/wp-content/uploads/2020/04/AdobeStock_253394573-626.jpeg" />
