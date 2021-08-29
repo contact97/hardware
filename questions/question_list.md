@@ -104,7 +104,8 @@ end
 
 ##
 
-**Question:** Setup checks and hold checks for flop-to-flop paths
+**Question:** Setup checks and hold checks for flop-to-flop paths (All 4 combinations)
+
 **Answer:** https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
 
 ##
