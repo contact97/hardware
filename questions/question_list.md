@@ -129,9 +129,8 @@ end
 ##
 
 **Question:** Write FSM of Lift
-https://www.cs.princeton.edu/courses/archive/spr06/cos116/FSM_Tutorial.pdf
 
-**Answer:**
+**Answer:** https://www.cs.princeton.edu/courses/archive/spr06/cos116/FSM_Tutorial.pdf
 
 ##
 
