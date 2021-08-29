@@ -104,20 +104,7 @@ end
 
 ##
 
-**Question:** Find the max allowed frequency for following diagram
-<p align="middle">
-  <img src="../images/pic6.jpg" width="60%">
-</p>
-
-**Answer:** https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
-
-##
-
-**Question:** Find Max allowed frequency
-<p align="middle">
-  <img src="../images/pic7.jpg"  width="60%">
-</p>
-
+**Question:** Setup checks and hold checks for flop-to-flop paths
 **Answer:** https://vlsiuniverse.blogspot.com/2013/07/setup-and-hold-checks-static-timing.html
 
 ##
