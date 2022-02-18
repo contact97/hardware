@@ -85,5 +85,59 @@ inoremap \fn <C-R>=expand("%:t:r")<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Basic Settings for Vim
+
+" Managing line numbers
+set number relativenumber
+
+" Always show status line
+set laststatus=2
+
+" Enable the use of mouse
+set mouse+=a
+
+"Remove the introduction message in Vim
+set shortmess=I
+
+"Enable syntax highlighting
+syntax on
+
+
+" Automatically indent when adding the curly bracket, etc.
+set smartindent
+set autoindent
+set cindent
+
+" Number spaces inserted when <Tab> is pressed
+set tabstop=8
+set softtabstop=4
+
+" Number of spaces inserted in Auto indentation
+set shiftwidth=4
+" <Tab>s are converted to spaces
+set expandtab
+
+" Show line number and cursor position
+set ruler
+
+" Display normal mode commands as you type
+set showcmd
+
+" Show editing mode
+set showmode
+
+" Show file options above the command line
+set widmenu
+set wildignorecase
+
+" highlight the current line and column
+set cursorline
+"set cursorcolumn
+
+
+
+
+
+
 
 
